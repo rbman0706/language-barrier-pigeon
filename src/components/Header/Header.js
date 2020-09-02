@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Header() {
     return(
         <div>
             <h1>Language Barrier Pigeon</h1>
@@ -9,4 +9,4 @@ function Home() {
 }
 
 
-export default Home;
+export default Header;

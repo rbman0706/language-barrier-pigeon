@@ -1,16 +1,14 @@
 import React from 'react';
 import './App.css';
 
-import Home from './components/Home/Home';
-import Display from './components/Display/Display';
-import Textinput from './components/Textinput/Textinput';
+import routes from './config/routes'
+import Header from './components/Header/Header'
 
 function App() {
   return (
     <div className="App">
-      <Home/>
-      <Textinput/>
-      <Display/>
+      <Header/>
+      { routes }
     </div>
   );
 }
